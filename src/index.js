@@ -238,7 +238,7 @@ export default class extends Component {
     } else {
       // correct index in case some children were removed
       initState.index = initState.total > 1
-        ? Math.min(props.index, initState.total - 1)
+        ? Math.min(props.index, initState.total)
         : 0
     }
 
